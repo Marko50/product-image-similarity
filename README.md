@@ -15,3 +15,7 @@ In this case, a series of encoded/decoded images will be also written so you can
 with the original ones.
 If you run `pipenv run python load`, this will load the autoencoder from disk and then it will 
 encode the images, flatten them into a 1-dimensional space and them run a Nearest Neighbor algorithm with K=5. It will write in disk for each elegible image, the more similar ones.
+
+## Blog Post
+
+You can check my blog post [here](https://marko50.github.io/autoencoders-product-recommendations/)
